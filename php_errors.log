@@ -1,0 +1,95 @@
+[02-Sep-2017 02:17:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function updateOne() on null in /var/www/sistemas.nlared.com/lobus/testw.php:23
+Stack trace:
+#0 {main}
+  thrown in /var/www/sistemas.nlared.com/lobus/testw.php on line 23
+[01-Sep-2017 21:21:13 America/Mexico_City] PHP Fatal error:  Uncaught MongoDB\Exception\InvalidArgumentException: $databaseName is invalid:  in /var/www/includes/vendor/mongodb/mongodb/src/Database.php:83
+Stack trace:
+#0 /var/www/includes/vendor/mongodb/mongodb/src/Client.php(213): MongoDB\Database->__construct(Object(MongoDB\Driver\Manager), '', Array)
+#1 /var/www/includes/vendor/mongodb/mongodb/src/Client.php(115): MongoDB\Client->selectDatabase('')
+#2 /var/www/includes/errorhandling.php(16): MongoDB\Client->__get('')
+#3 /var/www/sistemas.nlared.com/lobus/testw.php(5): {closure}(8192, 'Methods with th...', '/var/www/factur...', 85, Array)
+#4 /var/www/sistemas.nlared.com/lobus/testw.php(5): require()
+#5 {main}
+  thrown in /var/www/includes/vendor/mongodb/mongodb/src/Database.php on line 83
+[01-Sep-2017 21:28:22 America/Mexico_City] PHP Fatal error:  Uncaught MongoDB\Exception\InvalidArgumentException: $databaseName is invalid:  in /var/www/includes/vendor/mongodb/mongodb/src/Database.php:83
+Stack trace:
+#0 /var/www/includes/vendor/mongodb/mongodb/src/Client.php(213): MongoDB\Database->__construct(Object(MongoDB\Driver\Manager), '', Array)
+#1 /var/www/includes/vendor/mongodb/mongodb/src/Client.php(115): MongoDB\Client->selectDatabase('')
+#2 /var/www/includes/errorhandling.php(16): MongoDB\Client->__get('')
+#3 /var/www/sistemas.nlared.com/lobus/testw.php(5): {closure}(8192, 'Methods with th...', '/var/www/factur...', 85, Array)
+#4 /var/www/sistemas.nlared.com/lobus/testw.php(5): require()
+#5 {main}
+  thrown in /var/www/includes/vendor/mongodb/mongodb/src/Database.php on line 83
+[01-Sep-2017 21:28:46 America/Mexico_City] PHP Fatal error:  Uncaught MongoDB\Exception\InvalidArgumentException: $databaseName is invalid:  in /var/www/includes/vendor/mongodb/mongodb/src/Database.php:83
+Stack trace:
+#0 /var/www/includes/vendor/mongodb/mongodb/src/Client.php(213): MongoDB\Database->__construct(Object(MongoDB\Driver\Manager), '', Array)
+#1 /var/www/includes/vendor/mongodb/mongodb/src/Client.php(115): MongoDB\Client->selectDatabase('')
+#2 /var/www/includes/errorhandling.php(16): MongoDB\Client->__get('')
+#3 /var/www/sistemas.nlared.com/lobus/testw.php(5): {closure}(8192, 'Methods with th...', '/var/www/factur...', 85, Array)
+#4 /var/www/sistemas.nlared.com/lobus/testw.php(5): require()
+#5 {main}
+  thrown in /var/www/includes/vendor/mongodb/mongodb/src/Database.php on line 83
+[01-Sep-2017 21:35:24 America/Mexico_City] PHP Fatal error:  Uncaught MongoDB\Exception\InvalidArgumentException: $databaseName is invalid:  in /var/www/includes/vendor/mongodb/mongodb/src/Database.php:83
+Stack trace:
+#0 /var/www/includes/vendor/mongodb/mongodb/src/Client.php(213): MongoDB\Database->__construct(Object(MongoDB\Driver\Manager), '', Array)
+#1 /var/www/includes/vendor/mongodb/mongodb/src/Client.php(115): MongoDB\Client->selectDatabase('')
+#2 /var/www/includes/errorhandling.php(16): MongoDB\Client->__get('')
+#3 /var/www/sistemas.nlared.com/lobus/testw.php(5): {closure}(8192, 'Methods with th...', '/var/www/factur...', 85, Array)
+#4 /var/www/sistemas.nlared.com/lobus/testw.php(5): require()
+#5 {main}
+  thrown in /var/www/includes/vendor/mongodb/mongodb/src/Database.php on line 83
+[01-Sep-2017 21:36:15 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; nusoap_base has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 85
+[01-Sep-2017 21:36:15 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; nusoap_fault has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 1007
+[01-Sep-2017 21:36:15 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; nusoap_xmlschema has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 1095
+[01-Sep-2017 21:36:15 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; soapval has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 2067
+[01-Sep-2017 21:36:15 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; soap_transport_http has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 2169
+[01-Sep-2017 21:36:15 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; nusoap_server has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 3474
+[01-Sep-2017 21:36:15 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; wsdl has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 4597
+[01-Sep-2017 21:36:15 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; nusoap_parser has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 6532
+[01-Sep-2017 21:36:15 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; nusoap_client has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 7183
+[01-Sep-2017 21:36:51 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; nusoap_base has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 85
+[01-Sep-2017 21:36:51 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; nusoap_fault has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 1007
+[01-Sep-2017 21:36:51 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; nusoap_xmlschema has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 1095
+[01-Sep-2017 21:36:51 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; soapval has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 2067
+[01-Sep-2017 21:36:51 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; soap_transport_http has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 2169
+[01-Sep-2017 21:36:51 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; nusoap_server has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 3474
+[01-Sep-2017 21:36:51 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; wsdl has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 4597
+[01-Sep-2017 21:36:51 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; nusoap_parser has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 6532
+[01-Sep-2017 21:36:51 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; nusoap_client has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 7183
+[01-Sep-2017 21:36:51 America/Mexico_City] PHP Notice:  Undefined variable: dentro in /var/www/sistemas.nlared.com/lobus/testw.php on line 29
+[01-Sep-2017 21:36:51 America/Mexico_City] PHP Notice:  Undefined variable: ahora in /var/www/sistemas.nlared.com/lobus/testw.php on line 30
+[01-Sep-2017 21:36:51 America/Mexico_City] PHP Notice:  Undefined variable: dentro in /var/www/sistemas.nlared.com/lobus/testw.php on line 29
+[01-Sep-2017 21:36:51 America/Mexico_City] PHP Notice:  Undefined variable: ahora in /var/www/sistemas.nlared.com/lobus/testw.php on line 30
+[01-Sep-2017 21:36:51 America/Mexico_City] PHP Notice:  Undefined variable: dentro in /var/www/sistemas.nlared.com/lobus/testw.php on line 29
+[01-Sep-2017 21:36:51 America/Mexico_City] PHP Notice:  Undefined variable: ahora in /var/www/sistemas.nlared.com/lobus/testw.php on line 30
+[01-Sep-2017 21:36:51 America/Mexico_City] PHP Notice:  Undefined variable: dentro in /var/www/sistemas.nlared.com/lobus/testw.php on line 29
+[01-Sep-2017 21:36:51 America/Mexico_City] PHP Notice:  Undefined variable: ahora in /var/www/sistemas.nlared.com/lobus/testw.php on line 30
+[01-Sep-2017 21:38:46 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; nusoap_base has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 85
+[01-Sep-2017 21:38:46 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; nusoap_fault has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 1007
+[01-Sep-2017 21:38:46 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; nusoap_xmlschema has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 1095
+[01-Sep-2017 21:38:46 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; soapval has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 2067
+[01-Sep-2017 21:38:46 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; soap_transport_http has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 2169
+[01-Sep-2017 21:38:46 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; nusoap_server has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 3474
+[01-Sep-2017 21:38:46 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; wsdl has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 4597
+[01-Sep-2017 21:38:46 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; nusoap_parser has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 6532
+[01-Sep-2017 21:38:46 America/Mexico_City] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; nusoap_client has a deprecated constructor in /var/www/facturacion.nlared.com/Comprobantes/pacs/facturadorelectronico.com/lib/nusoap.php on line 7183
+[01-Sep-2017 22:11:34 America/Mexico_City] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /var/www/sistemas.nlared.com/lobus/testw.php:29
+Stack trace:
+#0 {main}
+  thrown in /var/www/sistemas.nlared.com/lobus/testw.php on line 29
+[01-Sep-2017 22:12:13 America/Mexico_City] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /var/www/sistemas.nlared.com/lobus/testw.php:30
+Stack trace:
+#0 {main}
+  thrown in /var/www/sistemas.nlared.com/lobus/testw.php on line 30
+[01-Sep-2017 23:10:20 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /var/www/sistemas.nlared.com/lobus/testw.php:25
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://www.deca...', 'urn:pwd5#getCur...', 1, 0)
+#1 /var/www/sistemas.nlared.com/lobus/testw.php(25): SoapClient->__soapCall('getCurrentPosit...', Array)
+#2 {main}
+  thrown in /var/www/sistemas.nlared.com/lobus/testw.php on line 25
+[01-Sep-2017 23:11:44 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /var/www/sistemas.nlared.com/lobus/testw.php:25
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://www.deca...', 'urn:pwd5#getCur...', 1, 0)
+#1 /var/www/sistemas.nlared.com/lobus/testw.php(25): SoapClient->__soapCall('getCurrentPosit...', Array)
+#2 {main}
+  thrown in /var/www/sistemas.nlared.com/lobus/testw.php on line 25
